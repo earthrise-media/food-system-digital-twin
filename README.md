@@ -1,6 +1,8 @@
 # Food Twin
 Work Related to a proof of concept Food System Digital Twin. Connected to [the Plotline](https://theplotline.org/).
 
+# Production and Consumption Data 
+The input data used in the Production Consumption Normalization notebook is detailed below. 
 
 |Data Name|Path|Description|Source|
 |---------|----|-----------|------|

@@ -1,0 +1,31 @@
+﻿Food,Crop Code,Category
+Apples,crop_68,Fruits
+Bananas,nan,Fruits
+Berries,nan,Fruits
+Grapes,crop_69,Fruits
+Melons,nan,Fruits
+Oranges,crop_212,Fruits
+Other citrus fruits,crop_72,Fruits
+Stone fruits,nan,Fruits
+Tropical fruits,nan,Fruits
+Broccoli and cauliflower,nan,Vegetables
+Carrots,crop_206,Vegetables
+Celery,crop_245,Vegetables
+Cucumbers,crop_50,Vegetables
+Green peas,crop_53,Vegetables
+Lettuce,crop_227,Vegetables
+Onions,crop_49,Vegetables
+Peppers,crop_43,Vegetables
+Tomatoes,nan,Vegetables
+Sweet corn,nan,Vegetables
+Potatoes,crop_3,Potatoes
+Legumes,nan,Grain
+Corn,crop_1,Grain
+Oats,crop_28,Grain
+Rice,crop_12,Grain
+Wheat,crop_72,Grain
+Peanuts,crop_10,Nuts
+Tree nuts,nan,Nuts
+Other grain,nan,Grain
+Radishes,crop_246,Vegetables
+Cabbage,crop_243,Vegetables

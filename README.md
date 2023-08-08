@@ -26,13 +26,15 @@ This project produced several datasets, some of which are used in the final appl
 
 |Data Name|Description|
 |---------|-----------|
-|county-population-consumption-production-scaled.csv| Data set of predicted production and consumption of all tracked crops at a county level. Production is normalized to the consumption levels. County polygons are also joined to this data                            |
-| county-population-consumption-production-scaled.geojson | Data set of predicted production and consumption of all tracked crops at a county level. Production is normalized to the consumption levels. County polygons are also joined to this data                            |
-| crop-key.csv                                            | Look up table for crops in the study with the most relevant cropscape crop identifier and category the crop is grouped into in the final application                                                                 |
-| food-imports-ports.csv                                  | Calorie counts of food imported through each port of entry. Includes identifying information about the port and the geocoordinates.                                                                                  |
-| food-imports-ports.geojson                              | Calorie counts of food imported through each port of entry. Includes identifying information about the port and the geocoordinates.                                                                                  |
-| full-production-2017.csv                                | Total of produced food, grown and imported, on a county level as calculated by our model. This is before the production data is scaled to consumption.                                                               |
-| population-data.csv                                     | Demographic data on income level, age, and sex on a county level. Does not include geographic polygons of counties                                                                                                   |
-| population-demographics-county.geojson                  | Demographic data on income level, age, and sex on a county level joined with polygons of those counties                                                                                                              |
-| production-consumption-max-min.csv                      | The county names and Calorie counts for maximum and minimum production across all counties. For minimum values, the first county, alphabetically, that does not produce any calories of that crop is the one listed. |
-| us-port-locations.geojson                               | Geocoordinates of all US ports of entry along with county where they are located and port codes. The geocoordinates were derived from geocoding addresses.                     
+|county-population-consumption-production-scaled.csv| Data set of predicted production and consumption of all tracked crops at a county level. Production is normalized to the consumption levels. County polygons are also joined to this data|
+| county-population-consumption-production-scaled.geojson | Data set of predicted production and consumption of all tracked crops at a county level. Production is normalized to the consumption levels. County polygons are also joined to this data|
+| crop-key.csv| Look up table for crops in the study with the most relevant cropscape crop identifier and category the crop is grouped into in the final application|
+| food-imports-ports.csv| Calorie counts of food imported through each port of entry. Includes identifying information about the port and the geocoordinates.|
+| food-imports-ports.geojson| Calorie counts of food imported through each port of entry. Includes identifying information about the port and the geocoordinates.|
+| full-production-2017.csv| Total of produced food, grown and imported, on a county level as calculated by our model. This is before the production data is scaled to consumption.|
+| population-data.csv | Demographic data on income level, age, and sex on a county level. Does not include geographic polygons of counties |
+| population-demographics-county.geojson|Demographic data on income level, age, and sex on a county level joined with polygons of those counties|
+| production-consumption-max-min.csv| The county names and Calorie counts for maximum and minimum production across all counties. For minimum values, the first county, alphabetically, that does not produce any calories of that crop is the one listed.|
+| us-port-locations.geojson| Geocoordinates of all US ports of entry along with county where they are located and port codes. The geocoordinates were derived from geocoding addresses.|
+| unscaled-production-without-imports.csv | Total of produced food, on a county level as calculated by our model. This does not include imports and is before it is scaled to consumption.|
+| production-scale-ratios.json | This is a json file of the ratio of produced crops/consumed crop. Production numbers are divided by this number to get to the 
